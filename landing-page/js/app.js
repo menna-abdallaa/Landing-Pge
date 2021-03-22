@@ -111,7 +111,7 @@ window.addEventListener('scroll',function(){
             })
             section.className="activeClass";
             var links = document.querySelectorAll("a");
-            x.forEach(function(oneLink){
+            links.forEach(function(oneLink){
             if (section.getAttribute('data-nav')==oneLink.textContent){
                 oneLink.style.backgroundColor="blue"
             }
